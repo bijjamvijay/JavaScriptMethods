@@ -1,7 +1,7 @@
   
 /**
- * A string is a palindrome if it is read the same from forward or backward is know as Palindrome.
- * Checking Palindrome by using Split,reverse,Jion Methods.
+ * If a  string (or) number is read the same from forward or backward,it is know as Palindrome.
+ * Checking Palindrome by using Split,reverse&Join Methods.
  * Author :Vijay
  */
 
