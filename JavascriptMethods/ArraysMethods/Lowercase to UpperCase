@@ -1,0 +1,9 @@
+/**
+ * LowerCase to UperCase In JavaScript
+ * Author: Vijay
+ */
+ 
+ let lowerCase = "javascript is fun!";
+let upperCase = lowerCase.toUpperCase();
+
+console.log(upperCase);
