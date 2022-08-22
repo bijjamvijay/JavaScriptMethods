@@ -1,3 +1,8 @@
+
+/**
+ *Remove Duplicates By Using Filter, map Method
+ * Author: Vijay
+ */
 const arr = [{id: 1, name: 'one'}, {id: 2, name: 'two'}, {id: 1, name: 'one'}]
 
 const ids = arr.map(o => o.id)
