@@ -1,0 +1,8 @@
+let a=[1,1,2,2,3,3,4,5,6,6];
+let b= a.filter((value,index)=>{
+  return a.indexOf(value) !== index
+})
+
+console.log(b)
+
+//[ 1, 2, 3, 6 ]  Duplicates in Above Array.
