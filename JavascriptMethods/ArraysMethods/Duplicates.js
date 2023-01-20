@@ -10,10 +10,12 @@ console.log(y);
 
 
 
-// Find The Dupliactes in given Arrays.
-const a = [9,5,5,7,7,4,0,9,6,0];
-const b = a => a.filter((item, index) => a.indexOf(item) !== index)
-const c = b(a);
-console.log(c);
+// Removeing Dupliactes in given Arrays.
+const a = [9,4,9,1,4,6,7,2,1,1];
+const b =  a.filter((item, index) => a.indexOf(item) == index)
+console.log(b);
+
+
+// [ 9, 4, 1, 6, 7, 2 ]  === Duplicates
 
 
