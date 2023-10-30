@@ -23,3 +23,13 @@
      }
  };
  console.log(y);
+
+
+//  other Method
+ let numbers = [ 25,15,35,40,20 ]
+
+//  Find the second highest Number;
+
+let secondHighestNum = arr  => arr.sort((a,b) => a-b)[1];
+
+console.log(secondHighestNum(numbers))
