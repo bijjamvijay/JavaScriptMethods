@@ -1,0 +1,16 @@
+function generateFibonacciSeries(n) {
+    let fibonacciSeries = [0, 1];
+  
+    for (let i = 2; i < n; i++) {
+      const a = fibonacciSeries[i - 1];
+      const b = fibonacciSeries[i - 2];
+      fibonacciSeries.push(a + b);
+    }
+  
+    return fibonacciSeries;
+  }
+  
+  // Generating Fibonacci series for the first 10 numbers
+  const seriesLength = 25;
+  const fibonacciSeries = generateFibonacciSeries(seriesLength);
+  console.log(`Fibonacci series for first ${seriesLength} numbers:`, fibonacciSeries);
