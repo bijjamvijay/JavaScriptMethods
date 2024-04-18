@@ -1,0 +1,25 @@
+
+
+
+
+ // find the longest String in given sentence by using function in javascript if sentence is empty throw the false.
+ 
+ // Vijay is Front End Developer
+ 
+ 
+ function longestWord (str) {
+   
+	if(str.trim().length === 0 ) {
+		return false
+	};
+	
+	words = str.split(" ");
+// 	console.log(words)
+	wordsSort = words.sort((a,b)=>a.length-b.length);
+// 	console.log(wordsSort)
+return wordsSort.at(-1)
+	
+	
+};
+
+console.log(longestWord("Vijay is Front End Developer"))
