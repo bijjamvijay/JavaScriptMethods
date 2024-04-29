@@ -16,3 +16,16 @@ if(a===d){
 }else{
     console.log("No it's not a Palindrome :(")
 }
+
+
+
+// by using Function :
+function isNum (num) {
+      let number = num.toString();
+      let lowerCase = number.toLowerCase();
+      let splitChar = lowerCase.split("");
+      let plandromeChar = splitChar.reverse().join("")
+      return plandromeChar == num
+      
+  }
+  console.log(isNum("Vijay"))
